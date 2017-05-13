@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C601E1B51EBFC782006245B4 /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C601E1B41EBFC782006245B4 /* NotesViewController.swift */; };
+		C601E1B71EBFD5EB006245B4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C601E1B61EBFD5EB006245B4 /* Constants.swift */; };
+		C6332F421EC758D60036FAAB /* ImageLocal.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6332F411EC758D60036FAAB /* ImageLocal.swift */; };
+		C689BEFF1EC03C610020768F /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C689BEFE1EC03C610020768F /* CardView.swift */; };
+		C6CF2D091EBF961300D8CA07 /* NavBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CF2D081EBF961300D8CA07 /* NavBarController.swift */; };
+		C6CF2D0D1EBF9FED00D8CA07 /* no_photo.png in Resources */ = {isa = PBXBuildFile; fileRef = C6CF2D0C1EBF9FED00D8CA07 /* no_photo.png */; };
+		C6CF2D111EBFA57400D8CA07 /* NoteItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CF2D101EBFA57400D8CA07 /* NoteItemCell.swift */; };
+		C6ECD1111EC07ED700044408 /* LocationLocal.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6ECD1101EC07ED700044408 /* LocationLocal.swift */; };
+		C6ECD1151EC08FD600044408 /* 535-powell-lowres.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C6ECD1141EC08FD600044408 /* 535-powell-lowres.jpg */; };
+		C6ECD1171EC0A3D100044408 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6ECD1161EC0A3D100044408 /* DetailViewController.swift */; };
+		C6F22D891EBF64FB00C23AEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F22D881EBF64FB00C23AEC /* AppDelegate.swift */; };
+		C6F22D8E1EBF64FB00C23AEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6F22D8C1EBF64FB00C23AEC /* Main.storyboard */; };
+		C6F22D911EBF64FB00C23AEC /* Awesome_Notes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C6F22D8F1EBF64FB00C23AEC /* Awesome_Notes.xcdatamodeld */; };
+		C6F22D931EBF64FB00C23AEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6F22D921EBF64FB00C23AEC /* Assets.xcassets */; };
+		C6F22D961EBF64FB00C23AEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6F22D941EBF64FB00C23AEC /* LaunchScreen.storyboard */; };
+		C6F22DC61EBF6F0F00C23AEC /* NoteLocal.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F22DC51EBF6F0F00C23AEC /* NoteLocal.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C601E1B41EBFC782006245B4 /* NotesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = NotesViewController.swift; sourceTree = "<group>"; wrapsLines = 1; };
+		C601E1B61EBFD5EB006245B4 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C6332F411EC758D60036FAAB /* ImageLocal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLocal.swift; sourceTree = "<group>"; };
+		C689BEFE1EC03C610020768F /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		C6CF2D081EBF961300D8CA07 /* NavBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavBarController.swift; sourceTree = "<group>"; };
+		C6CF2D0B1EBF99FA00D8CA07 /* SourceSansPro-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Regular.ttf"; sourceTree = "<group>"; };
+		C6CF2D0C1EBF9FED00D8CA07 /* no_photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = no_photo.png; sourceTree = "<group>"; };
+		C6CF2D101EBFA57400D8CA07 /* NoteItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteItemCell.swift; sourceTree = "<group>"; };
+		C6ECD10F1EC07BCB00044408 /* SourceSansPro-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Bold.ttf"; sourceTree = "<group>"; };
+		C6ECD1101EC07ED700044408 /* LocationLocal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationLocal.swift; sourceTree = "<group>"; };
+		C6ECD1141EC08FD600044408 /* 535-powell-lowres.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "535-powell-lowres.jpg"; sourceTree = "<group>"; };
+		C6ECD1161EC0A3D100044408 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		C6F22D851EBF64FB00C23AEC /* Awesome Notes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Awesome Notes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6F22D881EBF64FB00C23AEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C6F22D8D1EBF64FB00C23AEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C6F22D901EBF64FB00C23AEC /* Awesome_Notes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Awesome_Notes.xcdatamodel; sourceTree = "<group>"; };
+		C6F22D921EBF64FB00C23AEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C6F22D951EBF64FB00C23AEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C6F22D971EBF64FB00C23AEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6F22DC51EBF6F0F00C23AEC /* NoteLocal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteLocal.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6F22D821EBF64FB00C23AEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C6CF2D0A1EBF970D00D8CA07 /* viewcontroller */ = {
+			isa = PBXGroup;
+			children = (
+				C6CF2D081EBF961300D8CA07 /* NavBarController.swift */,
+				C6CF2D101EBFA57400D8CA07 /* NoteItemCell.swift */,
+				C601E1B41EBFC782006245B4 /* NotesViewController.swift */,
+				C601E1B61EBFD5EB006245B4 /* Constants.swift */,
+				C689BEFE1EC03C610020768F /* CardView.swift */,
+				C6ECD1161EC0A3D100044408 /* DetailViewController.swift */,
+			);
+			name = viewcontroller;
+			sourceTree = "<group>";
+		};
+		C6ECD10E1EC07BAD00044408 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				C6ECD1141EC08FD600044408 /* 535-powell-lowres.jpg */,
+				C6ECD10F1EC07BCB00044408 /* SourceSansPro-Bold.ttf */,
+				C6CF2D0C1EBF9FED00D8CA07 /* no_photo.png */,
+				C6CF2D0B1EBF99FA00D8CA07 /* SourceSansPro-Regular.ttf */,
+			);
+			name = assets;
+			sourceTree = "<group>";
+		};
+		C6F22D7C1EBF64FB00C23AEC = {
+			isa = PBXGroup;
+			children = (
+				C6F22D871EBF64FB00C23AEC /* Awesome Notes */,
+				C6F22D861EBF64FB00C23AEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C6F22D861EBF64FB00C23AEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6F22D851EBF64FB00C23AEC /* Awesome Notes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6F22D871EBF64FB00C23AEC /* Awesome Notes */ = {
+			isa = PBXGroup;
+			children = (
+				C6ECD10E1EC07BAD00044408 /* assets */,
+				C6CF2D0A1EBF970D00D8CA07 /* viewcontroller */,
+				C6F22DC41EBF6EF400C23AEC /* model */,
+				C6F22D881EBF64FB00C23AEC /* AppDelegate.swift */,
+				C6F22D8C1EBF64FB00C23AEC /* Main.storyboard */,
+				C6F22D921EBF64FB00C23AEC /* Assets.xcassets */,
+				C6F22D941EBF64FB00C23AEC /* LaunchScreen.storyboard */,
+				C6F22D971EBF64FB00C23AEC /* Info.plist */,
+				C6F22D8F1EBF64FB00C23AEC /* Awesome_Notes.xcdatamodeld */,
+			);
+			path = "Awesome Notes";
+			sourceTree = "<group>";
+		};
+		C6F22DC41EBF6EF400C23AEC /* model */ = {
+			isa = PBXGroup;
+			children = (
+				C6F22DC51EBF6F0F00C23AEC /* NoteLocal.swift */,
+				C6ECD1101EC07ED700044408 /* LocationLocal.swift */,
+				C6332F411EC758D60036FAAB /* ImageLocal.swift */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6F22D841EBF64FB00C23AEC /* Awesome Notes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6F22D9A1EBF64FB00C23AEC /* Build configuration list for PBXNativeTarget "Awesome Notes" */;
+			buildPhases = (
+				C6F22D811EBF64FB00C23AEC /* Sources */,
+				C6F22D821EBF64FB00C23AEC /* Frameworks */,
+				C6F22D831EBF64FB00C23AEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Awesome Notes";
+			productName = "Awesome Notes";
+			productReference = C6F22D851EBF64FB00C23AEC /* Awesome Notes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6F22D7D1EBF64FB00C23AEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Abdul-Mujib Aliu";
+				TargetAttributes = {
+					C6F22D841EBF64FB00C23AEC = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = V5L9D6NWDM;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C6F22D801EBF64FB00C23AEC /* Build configuration list for PBXProject "Awesome Notes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C6F22D7C1EBF64FB00C23AEC;
+			productRefGroup = C6F22D861EBF64FB00C23AEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6F22D841EBF64FB00C23AEC /* Awesome Notes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6F22D831EBF64FB00C23AEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6F22D961EBF64FB00C23AEC /* LaunchScreen.storyboard in Resources */,
+				C6CF2D0D1EBF9FED00D8CA07 /* no_photo.png in Resources */,
+				C6F22D931EBF64FB00C23AEC /* Assets.xcassets in Resources */,
+				C6ECD1151EC08FD600044408 /* 535-powell-lowres.jpg in Resources */,
+				C6F22D8E1EBF64FB00C23AEC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6F22D811EBF64FB00C23AEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6CF2D111EBFA57400D8CA07 /* NoteItemCell.swift in Sources */,
+				C6F22D911EBF64FB00C23AEC /* Awesome_Notes.xcdatamodeld in Sources */,
+				C6F22D891EBF64FB00C23AEC /* AppDelegate.swift in Sources */,
+				C6ECD1111EC07ED700044408 /* LocationLocal.swift in Sources */,
+				C6332F421EC758D60036FAAB /* ImageLocal.swift in Sources */,
+				C601E1B51EBFC782006245B4 /* NotesViewController.swift in Sources */,
+				C6CF2D091EBF961300D8CA07 /* NavBarController.swift in Sources */,
+				C6F22DC61EBF6F0F00C23AEC /* NoteLocal.swift in Sources */,
+				C6ECD1171EC0A3D100044408 /* DetailViewController.swift in Sources */,
+				C689BEFF1EC03C610020768F /* CardView.swift in Sources */,
+				C601E1B71EBFD5EB006245B4 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C6F22D8C1EBF64FB00C23AEC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6F22D8D1EBF64FB00C23AEC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C6F22D941EBF64FB00C23AEC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6F22D951EBF64FB00C23AEC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C6F22D981EBF64FB00C23AEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C6F22D991EBF64FB00C23AEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C6F22D9B1EBF64FB00C23AEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V5L9D6NWDM;
+				INFOPLIST_FILE = "Awesome Notes/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alium.Awesome-Notes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C6F22D9C1EBF64FB00C23AEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V5L9D6NWDM;
+				INFOPLIST_FILE = "Awesome Notes/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alium.Awesome-Notes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6F22D801EBF64FB00C23AEC /* Build configuration list for PBXProject "Awesome Notes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6F22D981EBF64FB00C23AEC /* Debug */,
+				C6F22D991EBF64FB00C23AEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6F22D9A1EBF64FB00C23AEC /* Build configuration list for PBXNativeTarget "Awesome Notes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6F22D9B1EBF64FB00C23AEC /* Debug */,
+				C6F22D9C1EBF64FB00C23AEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C6F22D8F1EBF64FB00C23AEC /* Awesome_Notes.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C6F22D901EBF64FB00C23AEC /* Awesome_Notes.xcdatamodel */,
+			);
+			currentVersion = C6F22D901EBF64FB00C23AEC /* Awesome_Notes.xcdatamodel */;
+			path = Awesome_Notes.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C6F22D7D1EBF64FB00C23AEC /* Project object */;
+}
